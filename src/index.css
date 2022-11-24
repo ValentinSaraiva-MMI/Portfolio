@@ -1,0 +1,199 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Mettre ici les styles "globaux" */
+.div-gradiant {
+  background: linear-gradient(89.96deg, #7f8c8d 29.49%, rgba(0, 0, 0, 0.15) 99.97%);
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #fff;
+}
+
+.hover-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 10%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: -1px;
+  left: 0;
+  background-color: #fff;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.form-control {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #666;
+}
+
+p,
+h4,
+h3,
+h2,
+h1 {
+  font-family: "Lato", sans-serif;
+}
+
+.stroke-custom {
+  -webkit-text-stroke: 1.5px white;
+}
+
+.fake-chevron {
+  position: relative;
+  left: 30%;
+}
+
+.fake-chevron::before {
+  content: "</";
+}
+
+.fake-chevron::after {
+  content: ">";
+}
+
+.svg-download:hover {
+  fill: black;
+}
+
+.btn-ctc {
+  transform: rotate(-0.12rad);
+}
+
+.btn-cv {
+  transform: rotate(0.1rad);
+}
+
+.mouse {
+  width: 38px;
+  height: 70px;
+  border: 3px solid #fff;
+  border-radius: 60px;
+  position: relative;
+}
+
+.mouse::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  border-radius: 50%;
+  opacity: 1;
+  animation: wheel 2s infinite;
+  -webkit-animation: wheel 2s infinite;
+}
+
+@keyframes wheel {
+  to {
+    opacity: 0;
+    top: 60px;
+  }
+}
+
+@-webkit-keyframes wheel {
+  to {
+    opacity: 0;
+    top: 60px;
+  }
+}
+
+a.viewmore {
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  overflow: hidden;
+  height: 50px;
+  padding: 5px;
+  display: inline-block;
+  position: relative;
+
+  cursor: pointer;
+}
+
+a.viewmore span.tag {
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  left: -100%;
+  top: -6px;
+  transition: all 1s cubic-bezier(0.835, -0.005, 0.06, 1);
+  padding-left: 80px;
+}
+
+a.viewmore span.tag::before {
+  height: 2px;
+  width: 70px;
+  content: "";
+  left: 0px;
+  top: 6px;
+  position: absolute;
+  display: block;
+  background: white;
+}
+
+a.viewmore:hover span.tag {
+  left: 0;
+}
+
+a.viewmore:hover .arrow {
+  width: 5px;
+}
+
+.arrow {
+  display: inline-block;
+  vertical-align: middle;
+  height: 2px;
+  width: 80px;
+  background-color: white;
+  position: relative;
+  display: inline-block;
+  transition: 500ms all;
+  transition: all 1s cubic-bezier(0.835, -0.005, 0.06, 1);
+  float: left;
+}
+
+.arrow span {
+  color: white;
+}
+
+.arrow::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  border: 5px solid transparent;
+  margin-top: -5px;
+}
+
+.arrow--right {
+  margin-left: 10px;
+}
+
+.arrow--right::after {
+  border-left: 7px solide white;
+  right: -7px;
+}
+
+.svg-hover:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.svg-hover {
+  transition: transform 0.4s;
+}
