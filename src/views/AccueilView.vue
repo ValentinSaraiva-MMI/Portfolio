@@ -11,11 +11,13 @@
         <p class="fake-chevron text-center text-xl text-[#C9C9C9]">Etudiants intrégrateur web</p>
 
         <div class="mt-16 ml-36 flex h-20 space-x-4">
-          <button
-            class="btn-ctc h-10 border-2 border-white px-10 text-lg text-white transition-[color,box-shadow] duration-[400ms,450ms] hover:border-noir hover:text-noir hover:shadow-[inset_14rem_0_0_0] hover:shadow-white"
-          >
-            Me contacter <i class="fa-regular fa-arrow-down-to-bracket text-white"></i>
-          </button>
+          <a href="/contact">
+            <button
+              class="btn-ctc h-10 border-2 border-white px-10 text-lg text-white transition-[color,box-shadow] duration-[400ms,450ms] hover:border-noir hover:text-noir hover:shadow-[inset_14rem_0_0_0] hover:shadow-white"
+            >
+              Me contacter <i class="fa-regular fa-arrow-down-to-bracket text-white"></i>
+            </button>
+          </a>
 
           <a href="../public/document/CV.pdf" download>
             <button
