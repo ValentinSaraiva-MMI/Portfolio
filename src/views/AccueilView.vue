@@ -265,14 +265,15 @@
     <a href="/camatch">
       <projetcard date="2022" titre="Ça match ? " tache="Intégration & UX design " image="public/images/mockup/camatch.webp" />
     </a>
-
-    <projetcard
-      date="2022"
-      titre="Borne de commande
+    <a href="/borne">
+      <projetcard
+        date="2022"
+        titre="Borne de commande
 Musée  "
-      tache="Intégration, UX design & Développement "
-      image="public/images/mockup/borne.webp"
-    />
+        tache="Intégration, UX design & Développement "
+        image="public/images/mockup/borne.webp"
+      />
+    </a>
 
     <a href="/velotaf">
       <projetcard date="2022" titre="Velotaf" tache="Intégration WordPress" image="public/images/mockup/velotaf.webp" />

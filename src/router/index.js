@@ -7,7 +7,7 @@ import ProjetCaMatchView from "../views/ProjetCaMatchView.vue";
 import ProjetVelotafView from "../views/ProjetVelotafView.vue";
 import ProjetOlympeView from "../views/ProjetOlympeView.vue";
 import ProjetRampageView from "../views/ProjetRampageView.vue";
-
+import ProjetBorneView from "../views/ProjetBorneView.vue";
 import Page404View from "../views/Page404View.vue";
 
 const router = createRouter({
@@ -21,6 +21,7 @@ const router = createRouter({
     { path: "/camatch", name: "ProjetCaMatchView", component: ProjetCaMatchView },
     { path: "/velotaf", name: "ProjetVelotafView", component: ProjetVelotafView },
     { path: "/olympe", name: "ProjetOlympeView", component: ProjetOlympeView },
+    { path: "/borne", name: "ProjetBorneView", component: ProjetBorneView },
 
     //page 404
     {
