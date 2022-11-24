@@ -278,7 +278,11 @@ Musée  "
     <a href="/velotaf">
       <projetcard date="2022" titre="Velotaf" tache="Intégration WordPress" image="public/images/mockup/velotaf.webp" />
     </a>
-    <projetcard date="2022" titre="Webjam 2022 " tache="Développement & level design  " image="public/images/mockup/webjam.webp" />
+
+    <a href="/webjam">
+      <projetcard date="2022" titre="Webjam 2022 " tache="Développement & level design  " image="public/images/mockup/webjam.webp" />
+    </a>
+
     <projetcard
       date="2022"
       titre="First stone "

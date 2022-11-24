@@ -8,6 +8,8 @@ import ProjetVelotafView from "../views/ProjetVelotafView.vue";
 import ProjetOlympeView from "../views/ProjetOlympeView.vue";
 import ProjetRampageView from "../views/ProjetRampageView.vue";
 import ProjetBorneView from "../views/ProjetBorneView.vue";
+import ProjetWebjamView from "../views/ProjetWebjamView.vue";
+
 import Page404View from "../views/Page404View.vue";
 
 const router = createRouter({
@@ -22,6 +24,7 @@ const router = createRouter({
     { path: "/velotaf", name: "ProjetVelotafView", component: ProjetVelotafView },
     { path: "/olympe", name: "ProjetOlympeView", component: ProjetOlympeView },
     { path: "/borne", name: "ProjetBorneView", component: ProjetBorneView },
+    { path: "/webjam", name: "ProjetWebjamView", component: ProjetWebjamView },
 
     //page 404
     {
