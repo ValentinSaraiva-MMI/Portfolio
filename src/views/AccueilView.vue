@@ -1,19 +1,18 @@
 <template>
   <div class="flex h-[100vh] columns-3 pb-0">
-    <div class="m-0 mt-40 h-[100%] basis-1/2 flex-col">
+    <div class="m-0 mt-20 h-[100%] basis-1/2 flex-col xl:mt-40">
       <div class="relative w-[80%]">
-        <h4 class="text-right text-5xl text-white">Bonjour je suis</h4>
-        <div class="div-gradiant absolute top-9 left-64 h-2 w-36"></div>
+        <h4 class="text-left text-4xl text-white lg:text-right">Bonjour je suis</h4>
 
-        <h3 class="text-right text-8xl font-bold text-white">VALENTIN</h3>
-        <h3 class="stroke-custom text-right text-8xl tracking-widest text-noir">SARAIVA</h3>
+        <h3 class="text-left text-5xl font-bold text-white sm:text-xl md:text-7xl lg:text-right lg:text-8xl">VALENTIN</h3>
+        <h3 class="stroke-custom text-left text-5xl tracking-widest text-noir sm:text-xl md:text-7xl lg:text-right lg:text-8xl">SARAIVA</h3>
 
-        <p class="fake-chevron text-center text-xl text-[#C9C9C9]">Etudiants intrégrateur web</p>
+        <p class="fake-chevron -ml-28 text-left text-xl text-[#C9C9C9] lg:ml-0 lg:text-center">Etudiants intrégrateur web</p>
 
         <div class="mt-16 ml-36 flex h-20 space-x-4">
           <a href="/contact">
             <button
-              class="btn-ctc h-10 border-2 border-white px-10 text-lg text-white transition-[color,box-shadow] duration-[400ms,450ms] hover:border-noir hover:text-noir hover:shadow-[inset_14rem_0_0_0] hover:shadow-white"
+              class="btn-ctc h-12 border-2 border-white px-12 text-base text-white transition-[color,box-shadow] duration-[400ms,450ms] hover:border-noir hover:text-noir hover:shadow-[inset_14rem_0_0_0] hover:shadow-white lg:text-lg"
             >
               Me contacter <i class="fa-regular fa-arrow-down-to-bracket text-white"></i>
             </button>
@@ -21,7 +20,7 @@
 
           <a href="../public/document/CV.pdf" download>
             <button
-              class="btn-cv h-10 border-2 border-white px-10 text-lg text-white transition-[color,box-shadow] duration-[400ms,450ms] hover:border-noir hover:text-noir hover:shadow-[inset_14rem_0_0_0] hover:shadow-white"
+              class="btn-cv h-12 border-2 border-white px-12 text-sm text-white transition-[color,box-shadow] duration-[400ms,450ms] hover:border-noir hover:text-noir hover:shadow-[inset_14rem_0_0_0] hover:shadow-white lg:text-lg"
             >
               Télecharger CV
               <svg
@@ -120,7 +119,7 @@
 
   <hr class="mx-auto mt-44 flex h-1 w-2/3 border-t-[#808080]" />
 
-  <h2 class="ml-28 mt-16 font-montserrat text-8xl font-medium text-white">À propos</h2>
+  <h2 class="ml-28 mt-16 font-montserrat text-4xl font-medium text-white lg:text-4xl xl:text-7xl 2xl:text-8xl">À propos</h2>
 
   <div class="mt-12 ml-16 mr-10 flex flex-row gap-6">
     <div class="basis-1/6">
@@ -128,7 +127,7 @@
     </div>
 
     <div>
-      <p class="basis-4/6 text-2xl text-[#C9C9C9]">
+      <p class="basis-4/6 text-lg text-[#C9C9C9] lg:text-xl xl:text-2xl">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
         ad minim veniam, quis nostrud exercitation ullam<span class="font-extrabold text-white"
           >blueid est laborum. Lorid est laborum. Lor</span
@@ -148,7 +147,7 @@
     </div>
   </div>
 
-  <h2 class="mt-52 mr-28 text-right text-8xl font-medium text-white">
+  <h2 class="mt-52 mr-28 text-right text-4xl font-medium text-white lg:text-4xl xl:text-7xl 2xl:text-8xl">
     Mes <br />
     Compétences
   </h2>
@@ -295,7 +294,7 @@ Ux design "
   </div>
 
   <div class="ml-[10%] mt-60">
-    <h2 class="font-montserrat text-[5.313rem] font-semibold text-white">COMMENÇONS UN PROJET</h2>
+    <h2 class="xl:[5.313rem] font-montserrat text-5xl font-semibold text-white lg:text-[80px]">COMMENÇONS UN PROJET</h2>
 
     <a href="/contact">
       <button
