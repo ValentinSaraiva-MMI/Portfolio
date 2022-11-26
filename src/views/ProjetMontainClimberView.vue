@@ -39,7 +39,7 @@
   </div>
 
   <h2 class="ml-[6vw] mt-[5vh] font-montserrat text-3xl font-medium text-white md:text-3xl lg:text-4xl xl:text-5xl">À propos</h2>
-  <div class="mt-6 columns-2 gap-10 lg:gap-16 xl:gap-20">
+  <div class="mt-6 gap-10 md:columns-2 lg:gap-16 xl:gap-20">
     <p class="w-[80%] font-montserrat text-xl font-medium text-white">
       Le site Montain Climbers a été réalise à l’occasion d’un TP dont l’objectif était d’apprendre à manier Wordpress cote client et cote
       back end a l’aide d’un thème.
