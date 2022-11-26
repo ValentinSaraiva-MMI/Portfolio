@@ -11,7 +11,7 @@
         <router-link to="/apropos">À propos</router-link>
       </li>
       <li class="hover-underline-animation mx-2 flex flex-auto font-lato text-base text-white">
-        <router-link to="/festival">Projets</router-link>
+        <router-link to="/">Projets</router-link>
       </li>
 
       <li class="hover-underline-animation mx-2 flex flex-auto font-lato text-base text-white">
@@ -39,15 +39,14 @@
       :class="{ 'translate-x-0': menuOuvert }"
     >
       <div class="mt-7">
-        <p class="ml-4 inline-block pr-3 font-oswald text-4xl text-Beige-150">RAMPAGE</p>
-        <p class="ml-4 inline-block font-oswald text-2xl text-Beige-150">3 éme édition</p>
+        <p class="ml-4 inline-block pr-3 font-montserrat text-4xl text-white">Portfolio</p>
+        <p class="ml-4 inline-block font-montserrat text-2xl text-white">Valentin Saraiva</p>
       </div>
 
-      <ul class="ml-4 flex h-screen flex-col justify-evenly font-oswald text-5xl text-Beige-150">
+      <ul class="ml-4 flex h-screen flex-col justify-evenly font-montserrat text-5xl text-white">
         <li class=""><router-link to="/">Accueil </router-link></li>
-        <li class=""><router-link to="/artiste">À propos </router-link></li>
-        <li class=""><router-link to="/festival">Projets </router-link></li>
-        <li class=""><router-link to="/">CV </router-link></li>
+        <li class=""><router-link to="/apropos">À propos </router-link></li>
+        <li class=""><router-link to="/">Projets </router-link></li>
         <li class=""><router-link to="/contact">Contact</router-link></li>
       </ul>
     </div>

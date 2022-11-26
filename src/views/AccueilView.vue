@@ -294,7 +294,7 @@ Ux design "
   </div>
 
   <div class="ml-[10%] mt-60">
-    <h2 class="xl:[5.313rem] font-montserrat text-5xl font-semibold text-white lg:text-[80px]">COMMENÇONS UN PROJET</h2>
+    <h2 class="font-montserrat text-[2.5rem] font-semibold text-white md:text-[3.5rem] lg:text-[5.313rem]">COMMENÇONS UN PROJET</h2>
 
     <a href="/contact">
       <button
