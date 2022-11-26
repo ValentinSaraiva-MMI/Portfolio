@@ -71,19 +71,19 @@
           Envoyer
         </button>
         <div class="mt:my-0 mt-10">
-          <div class="mx-[5%] my-3 inline-block md:my-0">
+          <div class="mx-5 my-3 inline-block md:mx-[5%] md:my-0">
             <a class="font-bold text-white" href="mailto:valentinsa0701@gmail.com">
               <p class="font-bold text-white">Email <span class="font-light text-white">valentinsaraiva.pro@gmail.com</span></p>
             </a>
           </div>
 
-          <div class="mx-[5%] my-3 inline-block">
+          <div class="mx-5 my-3 inline-block md:mx-[5%]">
             <a class="font-bold text-white" href="tel:+33638881975">
               <p class="font-bold text-white">Téléphone <span class="font-light text-white">+33 6 38 88 19 75</span></p>
             </a>
           </div>
 
-          <div class="mx-[5%] my-3 inline-block">
+          <div class="mx-5 my-3 inline-block md:mx-[5%]">
             <a
               class="font-bold text-white"
               href="https://www.google.ca/maps/place/25300+Doubs,+France/@46.9321769,6.3445314,14z/data=!3m1!4b1!4m5!3m4!1s0x478dbd2dbd17c7e3:0x7bd189a64a80664b!8m2!3d46.9276!4d6.349001?hl=fr"
