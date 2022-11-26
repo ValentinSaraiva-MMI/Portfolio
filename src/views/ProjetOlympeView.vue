@@ -1,28 +1,26 @@
 <template>
-  <div class="mt-[11.6vh] ml-[11.6vh]">
+  <div class="mt-[11.6vh] ml-[2vh] md:ml-[7.6vh] lg:ml-[7.6vh] xl:ml-[11.6vh]">
     <div class="flex columns-3 items-center">
       <div>
-        <h1 class="font-montserrat text-[4.2em] font-medium text-white">Olympe</h1>
-        <p class="text-2xl text-white">Intégration & UX design</p>
+        <h1 class="font-montserrat text-5xl font-medium text-white md:text-[3.8em] lg:text-[4.0em] xl:text-[5.313em]">Olympe</h1>
+        <p class="text-lg text-white lg:text-lg xl:text-2xl">Intégration & UX design</p>
       </div>
 
-      <div class="mt-5 ml-[2.8vw]">
-        <h3 class="stroke-custom inline text-6xl">
+      <div class="mt-5 ml-2 md:ml-[1.5vw] lg:ml-[2.0vw] xl:ml-[2.8vw]">
+        <h3 class="stroke-custom inline text-4xl md:text-4xl lg:text-5xl xl:text-6xl">
           20 <br />
           21
         </h3>
       </div>
 
-      <div class="ml-[56%]">
+      <div class="ml-10">
         <a
           href="https://hungry-aryabhata-297231.netlify.app/
         
         "
         >
           <svg
-            class="svg-hover transition: .2s; /* Animation */ transform"
-            width="100"
-            height="100"
+            class="svg-hover transition: .2s; /* Animation */ sm:w-h-14 md:w-h-16 lg:h-2w-20 h-11 w-11 transform sm:h-14 md:h-16 lg:w-20 xl:h-24 xl:w-24"
             viewBox="0 0 100 100"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -40,45 +38,45 @@
     <img src="public\images\mockup\mochupolympe2.png" class="mx-auto mt-20 w-[55%]" alt="Mockup Montain Climber " />
 
     <h2 class="ml-[6vw] mt-[5vh] font-montserrat text-5xl font-medium text-white">À propos</h2>
-    <div class="ml-20 mt-[3.9vw] columns-2 gap-16">
-      <p class="w-[80%] font-montserrat text-xl font-medium text-white">
+    <div class="ml-20 mt-[3.9vw] gap-16 lg:columns-2">
+      <p class="w-[80%] font-montserrat text-lg font-medium text-white lg:text-lg xl:text-xl">
         Olympe est le tout premier projet multimédia réalisé par moi-même dans le cadre de mes études supérieures. Il constitue donc la
         première pierre de ma carrière de développeur web.
       </p>
-      <p class="w-[80%] font-montserrat text-xl font-medium text-white">
+      <p class="w-[80%] font-montserrat text-lg font-medium text-white lg:text-lg xl:text-xl">
         Cette première expérience dans le milieu du web m’a de découvrir les languages HTML5 et CSS3 ainsi que de comprendre le processus de
         réalisation d’un projet multimédia
       </p>
     </div>
 
-    <h2 class="ml-[6vw] mt-[18vh] font-montserrat text-5xl font-medium text-white">Logo</h2>
+    <h2 class="ml-[6vw] mt-20 font-montserrat text-5xl font-medium text-white md:mt-[11vh] lg:mt-[15vh] xl:mt-[18vh]">Logo</h2>
 
     <div class="ml-14 mt-8">
-      <img class="mx-5 inline-block h-44" src="public\images\logoolympe.svg" />
-      <img class="mx-5 inline-block h-44" src="public\images\logotype.svg" />
+      <img class="mx-5 inline-block h-20 md:h-32 lg:h-40 xl:h-44" src="public\images\logoolympe.svg" />
+      <img class="mx-5 inline-block h-20 md:h-32 lg:h-40 xl:h-44" src="public\images\logotype.svg" />
     </div>
 
-    <h2 class="mr-28 mt-[18vh] text-right font-montserrat text-5xl font-medium text-white">Couleurs</h2>
+    <h2 class="mr-28 mt-20 text-right font-montserrat text-5xl font-medium text-white md:mt-[11vh] lg:mt-[15vh] xl:mt-[18vh]">Couleurs</h2>
     <div class="mt-8 grid grid-cols-3">
       <div class="m-auto flex flex-col">
-        <div class="h-[9vw] w-[9vw] rounded-2xl bg-white"></div>
-        <figcaption class="text-center font-lato text-3xl text-white">#FFFFFF</figcaption>
+        <div class="h-[9vw] w-[9vw] rounded-lg bg-white md:rounded-lg lg:rounded-xl xl:rounded-2xl"></div>
+        <figcaption class="text-center font-lato text-lg text-white md:text-xl lg:text-2xl xl:text-3xl">#FFFFFF</figcaption>
       </div>
 
       <div class="m-auto flex flex-col">
-        <div class="h-[9vw] w-[9vw] rounded-2xl bg-[#34332E]"></div>
-        <figcaption class="text-center font-lato text-3xl text-white">#34332E</figcaption>
+        <div class="h-[9vw] w-[9vw] rounded-lg bg-[#34332E] md:rounded-lg lg:rounded-xl xl:rounded-2xl"></div>
+        <figcaption class="text-center font-lato text-lg text-white md:text-xl lg:text-2xl xl:text-3xl">#34332E</figcaption>
       </div>
 
       <div class="m-auto flex flex-col">
-        <div class="h-[9vw] w-[9vw] rounded-2xl bg-[#127098]"></div>
-        <figcaption class="text-center font-lato text-3xl text-white">#127098</figcaption>
+        <div class="h-[9vw] w-[9vw] rounded-lg bg-[#127098] md:rounded-lg lg:rounded-xl xl:rounded-2xl"></div>
+        <figcaption class="text-center font-lato text-lg text-white md:text-xl lg:text-2xl xl:text-3xl">#127098</figcaption>
       </div>
     </div>
 
-    <h2 class="ml-[6vw] mt-[10vh] font-montserrat text-5xl font-medium text-white">Outils utilisés</h2>
+    <h2 class="ml-[6vw] mt-[5vh] font-montserrat text-3xl font-medium text-white md:text-3xl lg:text-4xl xl:text-5xl">Outils utilisés</h2>
 
-    <div class="ml-40 mt-24 grid max-w-2xl grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(14rem,1fr))]">
+    <div class="max-w-8xl mt-24 ml-0 grid grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(20rem,1fr))] md:ml-20 lg:ml-32 xl:ml-40">
       <div>
         <cardComponent class="fill-white text-white" nom="Html 5" image="src\components\icons\icons-competences\html.svg" />
       </div>
@@ -92,16 +90,15 @@
       </div>
     </div>
   </div>
+  <div class="md:mt-50 ml-[10%] mt-7 xl:mt-60">
+    <hr class="mx-auto mt-5 mb-5 flex h-1 w-2/3 border-t-[#808080] md:mt-20" />
 
-  <div>
-    <hr class="mx-auto mt-20 flex h-1 w-2/3 border-t-[#808080]" />
-
-    <div class="columns-3">
+    <div class="md:columns-3">
       <div class="break-after-column"></div>
 
       <div class="break-after-column"></div>
 
-      <nav class="w-[60%] columns-2 pt-10">
+      <nav class="w-[90%] lg:w-[60%] lg:columns-2 lg:pt-10">
         <ul class="text-white">
           <a href="/"> <li class="py-2">Accueil</li></a>
           <li class="py-2"><router-link to="/apropos">À propos</router-link></li>
@@ -116,7 +113,6 @@
           </a>
         </ul>
       </nav>
-
       <ul class="st mt-11 flex w-[60%] flex-row justify-between">
         <a href="https://github.com/ValentinSaraiva-MMI" target="_blank">
           <li>
@@ -151,7 +147,7 @@
 
         <a
           href="https://www.linkedin.com/in/valentin-saraiva-mmi/
-"
+      "
           target="_blank"
         >
           <li>
@@ -166,7 +162,7 @@
 
         <a
           href="https://www.behance.net/valentinsaraiva
-"
+      "
           target="_blank"
         >
           <li>
@@ -180,11 +176,6 @@
         </a>
       </ul>
     </div>
-
-    <RouterLink class="my-auto" to="/">
-      <logoValentin class="ml-5 w-14" />
-    </RouterLink>
-    <p class="text-center font-montserrat text-base font-medium text-white">© Valentin Saraiva. 2022</p>
   </div>
 </template>
 
