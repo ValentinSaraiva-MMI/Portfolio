@@ -24,7 +24,7 @@
           <a href="../public/document/CV.pdf" download>
             <button
               class="btn-cv h-16 border-2 border-white px-12 text-sm text-white transition-[color,box-shadow] duration-[400ms,450ms] hover:border-noir hover:text-noir hover:shadow-[inset_14rem_0_0_0] hover:shadow-white md:h-16 lg:h-[65px] lg:text-lg"
-            >
+            > 
               Télecharger CV
               <svg
                 class="svg-download inline-block"
