@@ -35,7 +35,7 @@
       </div>
     </div>
 
-    <img src="public/images/mockup/montainclimber.webp" class="mx-auto mt-20 w-[65%]" alt="Mockup Montain Climber " />
+    <img src="/public/images/mockup/montainclimber.webp" class="mx-auto mt-20 w-[65%]" alt="Mockup Montain Climber " />
 
     <h2 class="ml-[6vw] mt-[5vh] font-montserrat text-3xl font-medium text-white md:text-3xl lg:text-4xl xl:text-5xl">À propos</h2>
     <div class="mt-6 gap-10 md:columns-2 lg:gap-16 xl:gap-20">
@@ -52,7 +52,7 @@
     <h2 class="ml-[6vw] mt-[5vh] font-montserrat text-3xl font-medium text-white md:text-3xl lg:text-4xl xl:text-5xl">Page d’acceuil</h2>
 
     <video class="mt-2 w-[75%]" autoplay loop>
-      <source src="public/images/mockup/mockupupvideomountainclimbers.mp4" type="video/mp4" />
+      <source src="/public/images/mockup/mockupupvideomountainclimbers.mp4" type="video/mp4" />
       Votre naviguateur ne supporte pas ce type de format video.
     </video>
 

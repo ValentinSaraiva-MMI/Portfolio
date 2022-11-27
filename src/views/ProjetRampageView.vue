@@ -36,7 +36,7 @@
     </div>
 
     <div class="mt-24 bg-[#141414] py-12">
-      <img src="public/images/rampagelaptop.webp" class="mx-auto w-[85%]" alt="image acceuil rampage" />
+      <img src="/public/images/rampagelaptop.webp" class="mx-auto w-[85%]" alt="image acceuil rampage" />
     </div>
 
     <h2 class="ml-[6vw] mt-[5vh] font-montserrat text-3xl font-medium text-white md:text-3xl lg:text-4xl xl:text-5xl">À propos</h2>
@@ -50,7 +50,7 @@
     </div>
 
     <div class="mt-44 columns-2">
-      <img class="w-[100%]" src="public/images/mockup/rampage.webp" alt="responsive design rampage festival" />
+      <img class="w-[100%]" src="/public/images/mockup/rampage.webp" alt="responsive design rampage festival" />
 
       <h2
         class="pt-10 font-montserrat text-3xl font-medium text-white md:ml-[4vw] md:text-4xl lg:ml-[5vw] lg:text-4xl xl:ml-[6vw] xl:text-5xl"
