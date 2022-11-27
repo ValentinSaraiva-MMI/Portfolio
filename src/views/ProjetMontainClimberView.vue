@@ -60,7 +60,7 @@
 
     <div class="ml-40 mt-24 grid max-w-2xl grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(20rem,1fr))]">
       <div>
-        <cardComponent class="fill-white text-white" nom="Wordpress" image="../src/components/icons/icons-competences/wordpress.svg" />
+        <cardComponent class="fill-white text-white" nom="Wordpress" image="./src/components/icons/icons-competences/wordpress.svg" />
       </div>
 
       <div>
