@@ -24,7 +24,7 @@
     <div class="mt-5 block sm:inline-block lg:mt-0">
       <img
         class="mx-auto ml-[7.7vw] mb-[15%] w-[80%] md:mx-0 md:ml-1 md:w-[100%] lg:ml-12"
-        src="public/images/Group92.png"
+        src="/public/images/Group92.png"
         alt="logo valentin"
       />
     </div>
