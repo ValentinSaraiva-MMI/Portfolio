@@ -2,7 +2,7 @@
 <template>
   <div class="flex h-[100vh] columns-2 pb-0 sm:columns-3 md:columns-3 lg:columns-3 xl:columns-3 2xl:columns-3">
     <div class="m-0 mt-20 h-[100%] basis-1/2 flex-col md:ml-5 xl:mt-40">
-      <div class="relative w-[80%]">
+      <div class="relative ml-3 w-[80%] sm:ml-0">
         <h4 class="text-left text-4xl text-white lg:text-right">Bonjour je suis</h4>
 
         <h3 class="text-left text-5xl font-bold text-white sm:text-5xl md:text-7xl lg:text-right lg:text-8xl">VALENTIN</h3>
@@ -10,7 +10,7 @@
           SARAIVA
         </h3>
 
-        <p class="fake-chevron -ml-28 text-left text-xl text-[#C9C9C9] lg:ml-0 lg:text-center">Etudiants intrégrateur web</p>
+        <p class="fake-chevron -ml-24 text-left text-xl text-[#C9C9C9] lg:ml-0 lg:text-center">Etudiants intrégrateur web</p>
 
         <div class="mt-16 ml-1 flex h-20 space-x-4 lg:ml-36">
           <a href="/contact">
@@ -46,7 +46,7 @@
     </div>
 
     <div class="basis-1/2 md:basis-1/3 lg:basis-1/3 xl:basis-1/3">
-      <img class="mt-12 md:w-[100%] lg:w-[100%] xl:w-[100%]" src="public\images\valentin.webp" alt="Photo de moi" />
+      <img class="mt-12 w-96 md:w-[100%] lg:w-[100%] xl:w-[100%]" src="public\images\valentin.webp" alt="Photo de moi" />
     </div>
 
     <div class="hidden flex-col items-center justify-evenly px-0 py-0 sm:flex md:flex lg:flex xl:flex 2xl:flex">
@@ -151,13 +151,13 @@
   </h2>
 
   <div
-    class="mx-[40%] mt-14 grid max-w-7xl grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(20rem,1fr))] sm:mx-[40%] md:m-[10%] md:ml-10 lg:mt-24 lg:ml-96"
+    class="mx-[20%] mt-14 grid max-w-7xl grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(20rem,1fr))] sm:mx-[40%] md:m-[10%] md:ml-10 lg:mt-24 lg:ml-96"
   >
     <div class="md:mb-4">
       <cardComponent class="fill-white text-white" nom="Html 5" image="src\components\icons\icons-competences\html.svg" />
       <svg
         class="md:mb-15 -mt-6 mb-20 sm:-mt-20 xl:mt-0"
-        width="166"
+        width="164"
         height="9"
         viewBox="0 0 166 9"
         fill="none"
@@ -282,7 +282,7 @@
     <hr />
   </div>
 
-  <div class="mt-24 grid max-w-6xl grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(27rem,1fr))] lg:ml-96">
+  <div class="mt-24 grid max-w-6xl grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(25.5rem,1fr))] lg:ml-96">
     <a href="/rampage">
       <projetcard date="2022" titre="Rampage" tache="Intégration, UX design & Développement " image="public/images/mockup/rampage.webp" />
     </a>
