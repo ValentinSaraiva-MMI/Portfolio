@@ -5,7 +5,7 @@
     <img :src="image" class="absolute left-[-1px] top-[-1px] w-auto sm:h-[115px] md:h-[144px] lg:h-[180px]" alt="image logiciel" />
     <div class="absolute left-[-1px] top-[-1px] h-[260px] w-[325px]"></div>
 
-    <p class="absolute right-20 top-48 w-[325px] text-center font-lato text-[28px] text-white">
+    <p class="absolute right-20 top-48 w-[325px] text-center font-lato text-[28px] text-white sm:-mt-14 md:-mt-7 xl:mt-1 xl:mb-1">
       {{ nom }}
     </p>
   </div>
