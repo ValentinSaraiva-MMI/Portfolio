@@ -17,7 +17,7 @@
     <a
       href="https://www.google.ca/maps/place/25300+Doubs,+France/@48.5819728,3.2019397,5.67z/data=!4m5!3m4!1s0x478dbd2dbd17c7e3:0x7bd189a64a80664b!8m2!3d46.9276!4d6.349001?hl=fr"
     >
-      <img class="lg:w[75vw] absolute top-[15.4vh] right-0 z-10 w-[65vw]" src="public/images/map.webp" alt="map Doubs " />
+      <img class="lg:w[75vw] absolute top-[15.4vh] right-0 z-10 w-[65vw]" src="/public/images/map.webp" alt="map Doubs " />
     </a>
 
     <div class="ml-[6vw]">
