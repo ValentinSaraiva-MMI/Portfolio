@@ -1,6 +1,6 @@
 <template>
   <figure
-    class="m-4 ml-[20%] flex h-[47vh] w-[58.84vw] flex-col bg-[#141414] md:ml-[20%] md:h-[55vh] md:w-[59.8vw] lg:ml-0 lg:h-[59vh] lg:w-[24.8vw] xl:ml-0 xl:h-[59vh] xl:w-[24.8vw]"
+    class="m-4 ml-[20%] flex h-[47vh] w-[58.84vw] flex-col bg-[#141414] md:mx-auto md:h-[55vh] md:w-[43.8vw] lg:ml-0 lg:h-[65vh] lg:w-[44.8vw] xl:ml-0 xl:h-[59vh] xl:w-[24.8vw]"
   >
     <div class="ml-4 mt-4">
       <p class="font-lato text-base font-light text-white md:text-base lg:text-base xl:text-base">
