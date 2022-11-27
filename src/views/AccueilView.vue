@@ -46,7 +46,7 @@
     </div>
 
     <div class="basis-1/2 md:basis-1/3 lg:basis-1/3 xl:basis-1/3">
-      <img class="mt-12 w-96 md:w-[100%] lg:w-[100%] xl:w-[100%]" src="public\images\valentin.webp" alt="Photo de moi" />
+      <img class="mt-12 w-96 md:w-[100%] lg:w-[100%] xl:w-[100%]" src="public/images/valentin.webp" alt="Photo de moi" />
     </div>
 
     <div class="hidden flex-col items-center justify-evenly px-0 py-0 sm:flex md:flex lg:flex xl:flex 2xl:flex">
@@ -154,7 +154,7 @@
     class="mx-[20%] mt-14 grid max-w-7xl grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(20rem,1fr))] sm:mx-[40%] md:m-[10%] md:ml-10 lg:mt-24 lg:ml-96"
   >
     <div class="md:mb-4">
-      <cardComponent class="fill-white text-white" nom="Html 5" image="src\components\icons\icons-competences\html.svg" />
+      <cardComponent class="fill-white text-white" nom="Html 5" image="src/components/icons/icons-competences/html.svg" />
       <svg
         class="md:mb-15 -mt-6 mb-20 sm:-mt-20 xl:mt-0"
         width="164"
