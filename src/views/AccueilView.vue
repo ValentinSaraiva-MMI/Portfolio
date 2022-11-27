@@ -280,11 +280,11 @@ Musée  "
     </a>
 
     <projetcard
-      date="2022"
+      date="En production "
       titre="First stone "
       tache="Développement, level design, sound design
 Ux design "
-      image="public/images/mockup/rampage.webp"
+      image="public/images/mockup/game.png"
     />
   </div>
 
