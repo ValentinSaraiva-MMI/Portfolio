@@ -64,7 +64,7 @@
 
     <div class="max-w-8xl mx-32 mt-24 grid grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(20rem,1fr))] md:ml-20 lg:ml-32 xl:ml-40">
       <div>
-        <cardComponent class="fill-white text-white" nom="Html 5" image="src\components\icons\icons-competences\html.svg" />
+        <cardComponent class="fill-white text-white" nom="Html 5" image="src/components/icons/icons-competences/html.svg" />
       </div>
 
       <div>

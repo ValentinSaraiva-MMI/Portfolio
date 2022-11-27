@@ -36,7 +36,7 @@
     </div>
 
     <div class="mt-24 bg-[#141414] py-12">
-      <img src="public\images\rampagelaptop.webp" class="mx-auto w-[85%]" alt="image acceuil rampage" />
+      <img src="public/images/rampagelaptop.webp" class="mx-auto w-[85%]" alt="image acceuil rampage" />
     </div>
 
     <h2 class="ml-[6vw] mt-[5vh] font-montserrat text-3xl font-medium text-white md:text-3xl lg:text-4xl xl:text-5xl">À propos</h2>
@@ -50,7 +50,7 @@
     </div>
 
     <div class="mt-44 columns-2">
-      <img class="w-[100%]" src="public\images\mockup\rampage.webp" alt="responsive design rampage festival" />
+      <img class="w-[100%]" src="public/images/mockup/rampage.webp" alt="responsive design rampage festival" />
 
       <h2
         class="pt-10 font-montserrat text-3xl font-medium text-white md:ml-[4vw] md:text-4xl lg:ml-[5vw] lg:text-4xl xl:ml-[6vw] xl:text-5xl"
@@ -63,7 +63,7 @@
 
     <div class="max-w-8xl mx-32 mt-24 grid grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(20rem,1fr))] md:ml-20 lg:ml-32 xl:ml-40">
       <div>
-        <cardComponent class="fill-white text-white" nom="Html 5" image="src\components\icons\icons-competences\html.svg" />
+        <cardComponent class="fill-white text-white" nom="Html 5" image="src/components/icons/icons-competences/html.svg" />
       </div>
 
       <div>

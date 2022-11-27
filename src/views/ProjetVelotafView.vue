@@ -35,7 +35,7 @@
       </div>
     </div>
 
-    <img src="public\images\mockup\velotaf2.png" class="mx-auto mt-20 w-[75%]" alt="Mockup Velotaf " />
+    <img src="public/images/mockup/velotaf2.png" class="mx-auto mt-20 w-[75%]" alt="Mockup Velotaf " />
 
     <h2 class="ml-[6vw] mt-[5vh] font-montserrat text-3xl font-medium text-white md:text-3xl lg:text-4xl xl:text-5xl">À propos</h2>
     <div class="mt-6 gap-10 md:columns-2 lg:gap-16 xl:gap-20">

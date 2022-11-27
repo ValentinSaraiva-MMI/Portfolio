@@ -35,7 +35,7 @@
       </div>
     </div>
 
-    <img src="public\images\mockup\mochupolympe2.png" class="mx-auto mt-20 w-[55%]" alt="Mockup Montain Climber " />
+    <img src="public/images/mockup/mochupolympe2.png" class="mx-auto mt-20 w-[55%]" alt="Mockup Montain Climber " />
 
     <h2 class="ml-[6vw] mt-[5vh] font-montserrat text-5xl font-medium text-white">À propos</h2>
     <div class="ml-20 mt-[3.9vw] gap-16 lg:columns-2">
@@ -52,8 +52,8 @@
     <h2 class="ml-[6vw] mt-20 font-montserrat text-5xl font-medium text-white md:mt-[11vh] lg:mt-[15vh] xl:mt-[18vh]">Logo</h2>
 
     <div class="ml-14 mt-8">
-      <img class="mx-5 inline-block h-20 md:h-32 lg:h-40 xl:h-44" src="public\images\logoolympe.svg" />
-      <img class="mx-5 inline-block h-20 md:h-32 lg:h-40 xl:h-44" src="public\images\logotype.svg" />
+      <img class="mx-5 inline-block h-20 md:h-32 lg:h-40 xl:h-44" src="public/images/logoolympe.svg" />
+      <img class="mx-5 inline-block h-20 md:h-32 lg:h-40 xl:h-44" src="public/images/logotype.svg" />
     </div>
 
     <h2 class="mr-28 mt-20 text-right font-montserrat text-5xl font-medium text-white md:mt-[11vh] lg:mt-[15vh] xl:mt-[18vh]">Couleurs</h2>
@@ -78,7 +78,7 @@
 
     <div class="max-w-8xl mx-32 mt-24 grid grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(20rem,1fr))] md:ml-20 lg:ml-32 xl:ml-40">
       <div>
-        <cardComponent class="fill-white text-white" nom="Html 5" image="src\components\icons\icons-competences\html.svg" />
+        <cardComponent class="fill-white text-white" nom="Html 5" image="src/components/icons/icons-competences/html.svg" />
       </div>
 
       <div>

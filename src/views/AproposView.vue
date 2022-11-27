@@ -17,14 +17,14 @@
     <div class="mt-28"></div>
 
     <div class="block sm:inline-block">
-      <img class="mx-auto w-[80%] md:mx-0 md:w-[100%]" src="public\images\valentin3.webp" alt="image de moi" />
+      <img class="mx-auto w-[80%] md:mx-0 md:w-[100%]" src="public/images/valentin3.webp" alt="image de moi" />
       <figcaption class="font-lato text-base font-light text-white">© Jean-Christophe Liberge et Kévin Espinoza-Rivière</figcaption>
     </div>
 
     <div class="mt-5 block sm:inline-block lg:mt-0">
       <img
         class="mx-auto ml-[7.7vw] mb-[15%] w-[80%] md:mx-0 md:ml-1 md:w-[100%] lg:ml-12"
-        src="public\images\Group92.png"
+        src="public/images/Group92.png"
         alt="logo valentin"
       />
     </div>

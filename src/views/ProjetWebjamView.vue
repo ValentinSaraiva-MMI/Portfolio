@@ -56,7 +56,7 @@
 
     <div class="ml-40 mt-24 grid max-w-2xl grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(20rem,1fr))]">
       <div>
-        <cardComponent class="fill-white text-white" nom="Unity" image="src\components\icons\icons-competences\unity.svg" />
+        <cardComponent class="fill-white text-white" nom="Unity" image="src/components/icons/icons-competences/unity.svg" />
       </div>
 
       <div>
