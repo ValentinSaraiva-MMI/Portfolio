@@ -1,11 +1,14 @@
+<!--columns-2 p sm:columns-3 md:columns-3 lg:columns-3 xl:columns-3 2xl:columns-3-->
 <template>
-  <div class="flex h-[100vh] columns-3 pb-0">
+  <div class="flex h-[100vh] columns-2 pb-0 sm:columns-3 md:columns-3 lg:columns-3 xl:columns-3 2xl:columns-3">
     <div class="m-0 mt-20 h-[100%] basis-1/2 flex-col xl:mt-40">
       <div class="relative w-[80%]">
         <h4 class="text-left text-4xl text-white lg:text-right">Bonjour je suis</h4>
 
-        <h3 class="text-left text-5xl font-bold text-white sm:text-xl md:text-7xl lg:text-right lg:text-8xl">VALENTIN</h3>
-        <h3 class="stroke-custom text-left text-5xl tracking-widest text-noir sm:text-xl md:text-7xl lg:text-right lg:text-8xl">SARAIVA</h3>
+        <h3 class="text-left text-5xl font-bold text-white sm:text-5xl md:text-7xl lg:text-right lg:text-8xl">VALENTIN</h3>
+        <h3 class="stroke-custom text-left text-5xl tracking-widest text-noir sm:text-5xl md:text-7xl lg:text-right lg:text-8xl">
+          SARAIVA
+        </h3>
 
         <p class="fake-chevron -ml-28 text-left text-xl text-[#C9C9C9] lg:ml-0 lg:text-center">Etudiants intrégrateur web</p>
 
@@ -42,11 +45,11 @@
       </div>
     </div>
 
-    <div class="basis-1/3">
-      <img class="mt-12 h-auto w-[100%]" src="public\images\valentin.webp" alt="Photo de moi" />
+    <div class="basis-1/2 md:basis-1/3 lg:basis-1/3 xl:basis-1/3">
+      <img class="mt-12 md:w-[100%] lg:w-[100%] xl:w-[100%]" src="public\images\valentin.webp" alt="Photo de moi" />
     </div>
 
-    <div class="flex flex-col items-center justify-evenly px-0 py-0">
+    <div class="hidden flex-col items-center justify-evenly px-0 py-0 sm:flex md:flex lg:flex xl:flex 2xl:flex">
       <a
         href="https://github.com/ValentinSaraiva-MMI 
       "
@@ -248,7 +251,7 @@
     <hr />
   </div>
 
-  <div class="mt-24 grid max-w-7xl grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(30rem,1fr))] lg:ml-96">
+  <div class="mt-24 grid max-w-6xl grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(27rem,1fr))] lg:ml-96">
     <a href="/rampage">
       <projetcard date="2022" titre="Rampage" tache="Intégration, UX design & Développement " image="public/images/mockup/rampage.webp" />
     </a>

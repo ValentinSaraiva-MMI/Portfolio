@@ -1,4 +1,6 @@
 <template>
+  <!--h-[156px] w-[175px] md:h-[184px] md:w-[207px] lg:h-[246px] lg:w-[260px] xl:h-[308px] xl:w-[325px]-->
+
   <div class="relative h-[308px] w-[325px]">
     <img :src="image" class="absolute left-[-1px] top-[-1px] h-[180px] w-auto" alt="image logiciel" />
     <div class="absolute left-[-1px] top-[-1px] h-[260px] w-[325px]"></div>
