@@ -36,39 +36,38 @@
     </div>
 
     <img src="public/images/mockup/montainclimber.webp" class="mx-auto mt-20 w-[65%]" alt="Mockup Montain Climber " />
-  </div>
 
-  <h2 class="ml-[6vw] mt-[5vh] font-montserrat text-3xl font-medium text-white md:text-3xl lg:text-4xl xl:text-5xl">À propos</h2>
-  <div class="mt-6 gap-10 md:columns-2 lg:gap-16 xl:gap-20">
-    <p class="w-[80%] font-montserrat text-xl font-medium text-white">
-      Le site Montain Climbers a été réalise à l’occasion d’un TP dont l’objectif était d’apprendre à manier Wordpress cote client et cote
-      back end a l’aide d’un thème.
-    </p>
-    <p class="w-[80%] font-montserrat text-xl font-medium text-white">
-      Cette première experiense m’a permis de découvrir et mesurer les possibilités permises par Wordpress lorsqu'il est accompagné d’un
-      thème et d’extension.
-    </p>
-  </div>
-
-  <h2 class="ml-[6vw] mt-[5vh] font-montserrat text-3xl font-medium text-white md:text-3xl lg:text-4xl xl:text-5xl">Page d’acceuil</h2>
-
-  <video class="mt-2 w-[75%]" autoplay loop>
-    <source src="public/images/mockup/mockupupvideomountainclimbers.mp4" type="video/mp4" />
-    Votre naviguateur ne supporte pas ce type de format video.
-  </video>
-
-  <h2 class="ml-[6vw] mt-[5vh] font-montserrat text-3xl font-medium text-white md:text-3xl lg:text-4xl xl:text-5xl">Outils utilisés</h2>
-
-  <div class="max-w-8xl mt-24 ml-0 grid grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(20rem,1fr))] md:ml-20 lg:ml-32 xl:ml-40">
-    <div>
-      <cardComponent class="fill-white text-white" nom="Wordpress" image="src/components/icons/icons-competences/wordpress.svg" />
+    <h2 class="ml-[6vw] mt-[5vh] font-montserrat text-3xl font-medium text-white md:text-3xl lg:text-4xl xl:text-5xl">À propos</h2>
+    <div class="mt-6 gap-10 md:columns-2 lg:gap-16 xl:gap-20">
+      <p class="w-[75%] font-montserrat text-xl font-medium text-white">
+        Le site Montain Climbers a été réalise à l’occasion d’un TP dont l’objectif était d’apprendre à manier Wordpress cote client et cote
+        back end a l’aide d’un thème.
+      </p>
+      <p class="w-[75%] font-montserrat text-xl font-medium text-white">
+        Cette première experiense m’a permis de découvrir et mesurer les possibilités permises par Wordpress lorsqu'il est accompagné d’un
+        thème et d’extension.
+      </p>
     </div>
 
-    <div>
-      <cardComponent class="fill-white text-white" nom="Avada Website Builder" image="src/components/icons/avada.svg" />
+    <h2 class="ml-[6vw] mt-[5vh] font-montserrat text-3xl font-medium text-white md:text-3xl lg:text-4xl xl:text-5xl">Page d’acceuil</h2>
+
+    <video class="mt-2 w-[75%]" autoplay loop>
+      <source src="public/images/mockup/mockupupvideomountainclimbers.mp4" type="video/mp4" />
+      Votre naviguateur ne supporte pas ce type de format video.
+    </video>
+
+    <h2 class="ml-[6vw] mt-[5vh] font-montserrat text-3xl font-medium text-white md:text-3xl lg:text-4xl xl:text-5xl">Outils utilisés</h2>
+
+    <div class="ml-40 mt-24 grid max-w-2xl grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(20rem,1fr))]">
+      <div>
+        <cardComponent class="fill-white text-white" nom="Wordpress" image="src/components/icons/icons-competences/wordpress.svg" />
+      </div>
+
+      <div>
+        <cardComponent class="fill-white text-white" nom="Avada Website Builder" image="src/components/icons/avada.svg" />
+      </div>
     </div>
   </div>
-
   <div class="md:mt-50 ml-[10%] mt-7 xl:mt-60">
     <hr class="mx-auto mt-5 mb-5 flex h-1 w-2/3 border-t-[#808080] md:mt-20" />
 

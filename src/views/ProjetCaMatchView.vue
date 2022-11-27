@@ -170,7 +170,7 @@
 
     <h2 class="ml-[6vw] mt-[5vh] font-montserrat text-3xl font-medium text-white md:text-3xl lg:text-4xl xl:text-5xl">Outils utilisés</h2>
 
-    <div class="max-w-8xl mt-24 ml-0 grid grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(20rem,1fr))] md:ml-20 lg:ml-32 xl:ml-40">
+    <div class="max-w-8xl mx-32 mt-24 grid grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(20rem,1fr))] md:ml-20 lg:ml-32 xl:ml-40">
       <div>
         <cardComponent class="fill-white text-white" nom="Html 5" image="src\components\icons\icons-competences\html.svg" />
       </div>
@@ -198,8 +198,8 @@
       Collaborateur
     </h1>
     <div class="mt-5 md:ml-[75%]">
-      <p class="inline font-montserrat font-medium text-white md:mx-3 md:text-center md:text-xl">Runser Aurélie</p>
-      <p class="inline font-montserrat font-medium text-white md:mx-3 md:text-right md:text-xl">Eccher Agathe</p>
+      <p class="mx-2md:mx-3 inline font-montserrat font-medium text-white md:text-center md:text-xl">Runser Aurélie</p>
+      <p class="mx-2 inline font-montserrat font-medium text-white md:mx-3 md:text-right md:text-xl">Eccher Agathe</p>
     </div>
   </div>
 
