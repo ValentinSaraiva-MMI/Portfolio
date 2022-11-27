@@ -1,28 +1,26 @@
 <template>
-  <div class="mt-[11.6vh] ml-[11.6vh]">
+  <div class="mt-[11.6vh] ml-[2vh] md:ml-[7.6vh] lg:ml-[7.6vh] xl:ml-[11.6vh]">
     <div class="flex columns-3 items-center">
       <div>
-        <h1 class="font-montserrat text-[4.2em] font-medium text-white">Velotaf</h1>
-        <p class="text-2xl text-white">Intégration WordPress</p>
+        <h1 class="font-montserrat text-4xl font-medium text-white md:text-[3.8em] lg:text-[4.0em] xl:text-[5.013em]">Velotaf</h1>
+        <p class="text-lg text-white md:mt-4 lg:mt-6 lg:text-lg xl:mt-10 xl:text-2xl">Intégration WordPress</p>
       </div>
 
-      <div class="mt-5 ml-[2.8vw]">
-        <h3 class="stroke-custom inline text-6xl">
+      <div class="mt-5 ml-2 md:ml-[1.5vw] lg:ml-[2.0vw] xl:ml-[2.8vw]">
+        <h3 class="stroke-custom inline text-4xl md:text-4xl lg:text-5xl xl:text-6xl">
           20 <br />
           22
         </h3>
       </div>
 
-      <div class="ml-[56%]">
+      <div class="ml-10">
         <a
           href="https://velotaf-pnfc.eboucard.fr/
         
         "
         >
           <svg
-            class="svg-hover transition: .2s; /* Animation */ transform"
-            width="100"
-            height="100"
+            class="svg-hover transition: .2s; /* Animation */ sm:w-h-14 md:w-h-16 lg:h-2w-20 h-11 w-11 transform sm:h-14 md:h-16 lg:w-20 xl:h-24 xl:w-24"
             viewBox="0 0 100 100"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -40,7 +38,7 @@
     <img src="public\images\mockup\velotaf2.png" class="mx-auto mt-20 w-[75%]" alt="Mockup Velotaf " />
 
     <h2 class="ml-[6vw] mt-[5vh] font-montserrat text-5xl font-medium text-white">À propos</h2>
-    <div class="ml-20 mt-[3.9vw] columns-2 gap-16">
+    <div class="mt-6 gap-10 md:columns-2 lg:gap-16 xl:gap-20">
       <p class="w-[80%] font-montserrat text-xl font-medium text-white">
         Realisé dans le cadre d’une évaluation durant le second semestre au département MMI de Montbéliard, ce travail a été pour mon équipe
         et moi-même l’opportunité de mettre à profit nos compétences wordpress acquises durant la session.
@@ -51,7 +49,7 @@
       </p>
     </div>
 
-    <h2 class="ml-[6vw] mt-[10vh] font-montserrat text-5xl font-medium text-white">Outils utilisés</h2>
+    <h2 class="ml-[6vw] mt-[10Vh] font-montserrat text-3xl font-medium text-white md:text-3xl lg:text-4xl xl:text-5xl">Outils utilisés</h2>
 
     <div class="ml-40 mt-24 grid max-w-2xl grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(20rem,1fr))]">
       <div>
@@ -63,22 +61,26 @@
       </div>
     </div>
 
-    <h1 class="mr-[6vw] mt-[20vh] text-right font-montserrat text-5xl font-medium text-white">Collaborateur</h1>
-    <div class="mt-5 ml-[75%]">
-      <p class="mx-3 inline text-center font-montserrat text-xl font-medium text-white">Eden Bourezg</p>
-      <p class="mx-3 inline text-right font-montserrat text-xl font-medium text-white">Emilien Boucard</p>
+    <h1
+      class="ml-[6vw] mt-[5vh] text-left font-montserrat text-3xl font-medium text-white md:mr-7 md:text-right md:text-3xl lg:text-4xl xl:text-5xl"
+    >
+      Collaborateur
+    </h1>
+    <div class="mt-5 md:ml-[75%]">
+      <p class="inline font-montserrat font-medium text-white md:mx-3 md:text-center md:text-xl">Eden Bourezg</p>
+      <p class="inline font-montserrat font-medium text-white md:mx-3 md:text-right md:text-xl">Emilien Boucard</p>
     </div>
   </div>
 
-  <div>
-    <hr class="mx-auto mt-20 flex h-1 w-2/3 border-t-[#808080]" />
+  <div class="md:mt-50 ml-[10%] mt-7 xl:mt-60">
+    <hr class="mx-auto mt-5 mb-5 flex h-1 w-2/3 border-t-[#808080] md:mt-20" />
 
-    <div class="columns-3">
+    <div class="md:columns-3">
       <div class="break-after-column"></div>
 
       <div class="break-after-column"></div>
 
-      <nav class="w-[60%] columns-2 pt-10">
+      <nav class="w-[90%] lg:w-[60%] lg:columns-2 lg:pt-10">
         <ul class="text-white">
           <a href="/"> <li class="py-2">Accueil</li></a>
           <li class="py-2"><router-link to="/apropos">À propos</router-link></li>
@@ -93,7 +95,6 @@
           </a>
         </ul>
       </nav>
-
       <ul class="st mt-11 flex w-[60%] flex-row justify-between">
         <a href="https://github.com/ValentinSaraiva-MMI" target="_blank">
           <li>
@@ -128,7 +129,7 @@
 
         <a
           href="https://www.linkedin.com/in/valentin-saraiva-mmi/
-"
+      "
           target="_blank"
         >
           <li>
@@ -143,7 +144,7 @@
 
         <a
           href="https://www.behance.net/valentinsaraiva
-"
+      "
           target="_blank"
         >
           <li>
@@ -157,11 +158,6 @@
         </a>
       </ul>
     </div>
-
-    <RouterLink class="my-auto" to="/">
-      <logoValentin class="ml-5 w-14" />
-    </RouterLink>
-    <p class="text-center font-montserrat text-base font-medium text-white">© Valentin Saraiva. 2022</p>
   </div>
 </template>
 

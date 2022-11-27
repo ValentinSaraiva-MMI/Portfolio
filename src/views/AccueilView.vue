@@ -128,21 +128,16 @@
 
     <div>
       <p class="basis-4/6 text-lg text-[#C9C9C9] lg:text-xl xl:text-2xl">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-        ad minim veniam, quis nostrud exercitation ullam<span class="font-extrabold text-white"
-          >blueid est laborum. Lorid est laborum. Lor</span
-        >
-        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit
-        amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-        nostrud exercitation ullamco laboris nisi ut aliquiuatr in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. lor sit
-        amet, consectetur adipiscing elit,
-        <span class="font-extrabold text-white">blueid est laborum. Lorid est laborum. Lor</span> nim ad minim veniam, quis nostrud
-        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-        anim id est laborum.
-        <a href="#"><span class="text-white underline underline-offset-8">À propos de moi</span></a>
+        Âgé de 20 ans, le multimédia a toujours ete pour moi une source d'intérêt, voila pourquoi j'ai decié d'y consacrer mes études
+        <span class="font-extrabold text-white">au département MMI de Montbéliard</span>
+        où j'y suis scolarisé depuis plus d'un an maintenant. Le métier de développeur web, ainsi que de programmeur, m'interesse car je
+        considere que ce sont dans ces domaines que l'on fasconne les techniques, les outils, et les medias de demain. <br />
+        Curieux, volontaire et motivé, j'essaye avec l'expérience qui est mienne d'éllaborer des sites web toujours plus innovants
+        <span class="font-extrabold text-white">afin de toujours combler les attentes.</span> <br />
+        Malgré que mon expérience soit encore jeune dans le milieu du web mon intérêt pour ce domaine ne cesse de me motiver et de faire
+        grandir mes ambitions. Si cette présentation n'a pas suffi à vous convaincre de travailler avec moi, vous pouvez en apprendre plus
+        encore plus dans la page
+        <a href="/apropos"><span class="text-white underline underline-offset-8">À propos de moi</span></a>
       </p>
     </div>
   </div>
