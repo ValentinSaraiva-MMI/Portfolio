@@ -37,7 +37,7 @@
       </div>
     </div>
 
-    <img src="public/images/mockup/bornes.png" class="mx-auto mt-20 w-[55%]" alt="Borne de commande  " />
+    <img src="/public/images/mockup/bornes.png" class="mx-auto mt-20 w-[55%]" alt="Borne de commande  " />
 
     <h2 class="ml-[6vw] mt-[5vh] font-montserrat text-3xl font-medium text-white md:text-3xl lg:text-4xl xl:text-5xl">À propos</h2>
     <div class="mt-6 gap-10 md:columns-2 lg:gap-16 xl:gap-20">
@@ -56,7 +56,7 @@
     </h2>
 
     <video class="ml-[0%] mt-11 md:ml-[0%] lg:ml-[40%] xl:ml-[50%]" autoplay>
-      <source src="public/images/mockup/Museedumonde.mp4" type="video/mp4" />
+      <source src="/public/images/mockup/Museedumonde.mp4" type="video/mp4" />
       Votre naviguateur ne supporte pas ce type de format video.
     </video>
 

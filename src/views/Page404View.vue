@@ -2,7 +2,7 @@
   <section>
     <div class="bg-black text-white">
       <div class="flex h-screen">
-        <img src="public/images/4044.png" alt="Image de la page 404" />
+        <img src="/public/images/4044.png" alt="Image de la page 404" />
       </div>
 
       <div class="-mt-20 flex justify-center">

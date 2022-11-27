@@ -36,7 +36,7 @@
     </div>
 
     <img
-      src="public/images/mockup/camatch.webp"
+      src="/public/images/mockup/camatch.webp"
       class="mx-auto mt-20 w-[90%] md:w-[55%] lg:w-[55%] xl:w-[55%]"
       alt="Mockup Montain Climber "
     />
@@ -57,7 +57,7 @@
     <div class="mt-16 md:columns-2">
       <img
         class="mx-auto h-[20%] sm:h-[20%] sm:w-[60%] md:h-[60%] md:w-[40%] lg:h-[60%] lg:w-[60%] xl:ml-[13%] xl:h-[100%]"
-        src="public/images/donneeCamatch.webp"
+        src="/public/images/donneeCamatch.webp"
         alt="donnée dynamique ça match"
       />
 
