@@ -24,7 +24,7 @@
           <a href="../public/document/CV.pdf" download>
             <button
               class="btn-cv h-16 border-2 border-white px-12 text-sm text-white transition-[color,box-shadow] duration-[400ms,450ms] hover:border-noir hover:text-noir hover:shadow-[inset_14rem_0_0_0] hover:shadow-white md:h-16 lg:h-[65px] lg:text-lg"
-            > 
+            >
               Télecharger CV
               <svg
                 class="svg-download inline-block"
@@ -46,7 +46,7 @@
     </div>
 
     <div class="basis-1/2 md:basis-1/3 lg:basis-1/3 xl:basis-1/3">
-      <img class="mt-12 w-96 md:w-[100%] lg:w-[100%] xl:w-[100%]" src="public\images\valentin.webp" alt="Photo de moi" />
+      <img class="mt-12 w-96 md:w-[100%] lg:w-[100%] xl:w-[100%]" src="public/images/valentin2.png" alt="Photo de moi" />
     </div>
 
     <div class="hidden flex-col items-center justify-evenly px-0 py-0 sm:flex md:flex lg:flex xl:flex 2xl:flex">
@@ -145,7 +145,7 @@
     </div>
   </div>
 
-  <h2 class="mr-28 mt-28 text-right text-4xl font-medium text-white sm:mt-20 lg:mt-32 lg:text-4xl xl:text-7xl 2xl:text-8xl">
+  <h2 class="xla:text-7xl mr-28 mt-28 text-right text-4xl font-medium text-white sm:mt-20 lg:mt-32 lg:text-4xl 2xl:text-8xl">
     Mes <br />
     Compétences
   </h2>
