@@ -262,7 +262,7 @@
       <projetcard date="2022" titre="Ça match ? " tache="Intégration & UX design " image="public/images/mockup/camatch.webp" />
     </a>
     <a href="/borne">
-      <projetcard
+      <projetborne
         date="2022"
         titre="Borne de commande
 Musée  "
@@ -279,7 +279,7 @@ Musée  "
       <projetcard date="2022" titre="Webjam 2022 " tache="Développement & level design  " image="public/images/mockup/webjam.webp" />
     </a>
 
-    <projetcard
+    <projetfirststone
       date="En production "
       titre="First stone "
       tache="Développement, level design, sound design
@@ -399,13 +399,17 @@ import projetcard from "../components/projet.vue";
 import cardComponent from "../components/card-component.vue";
 import LogoValentin from "../components/icons/Logo.vue";
 import guillement from "../components/icons/guillement.vue";
+import projetfirststone from "../components/projetfirststone.vue";
+import projetborne from "../components/projetborne.vue";
 
 export default {
   components: {
     guillement,
     cardComponent,
+    projetfirststone,
     projetcard,
     LogoValentin,
+    projetborne,
   },
 };
 </script>
